@@ -6,8 +6,21 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "electron": "ng build --base-href ./ && tsc --p electron && electron .",
+    "electron:build": "ng build --base-href ./ && tsc --p electron && electron-builder --publish never",
+    "electron:build:all": "ng build --base-href ./ && tsc --p electron && electron-builder -mwl --publish never"
   },
+  "build": {
+    "appId": "com.your-app-id",
+    "directories": {
+      "output": "release"
+    },
+    "mac": {
+      "category": "public.app-category.ANY"
+    }
+  },
+  "main": "electron/dist/main.js",
   "private": true,
   "dependencies": {
     "@angular/animations": "~12.1.1",
@@ -28,6 +41,8 @@
     "@angular/compiler-cli": "~12.1.1",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
+    "electron": "^13.1.6",
+    "electron-builder": "^22.11.7",
     "jasmine-core": "~3.7.0",
     "karma": "~6.3.0",
     "karma-chrome-launcher": "~3.1.0",
