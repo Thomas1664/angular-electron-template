@@ -29,4 +29,9 @@ async function useNpm() {
     from: /yarn\.lock/g,
     to: 'package-lock.json'
   })
+  await replace.replaceInFile({
+    files: 'angular.json',
+    from: '"packageManager": "yarn"',
+    to: '"packageManager": "npm"'
+  })
 }
