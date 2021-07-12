@@ -17,8 +17,8 @@ jobs:
       - name: Cache node modules
         uses: actions/cache@v1
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          path: ~/.yarn
+          key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-node-
 
@@ -29,8 +29,8 @@ jobs:
 
       - name: Electron build
         run: |
-          npm ci
-          npm run electron:build
+          yarn ci
+          yarn run electron:build
 
       - name: Artifact creation
         uses: actions/upload-artifact@v1
@@ -50,8 +50,8 @@ jobs:
       - name: Cache node modules
         uses: actions/cache@v1
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          path: ~/.yarn
+          key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-node-
 
@@ -62,8 +62,8 @@ jobs:
 
       - name: Electron build
         run: |
-          npm ci
-          npm run electron:build
+          yarn ci
+          yarn run electron:build
 
       - name: Artifact creation
         uses: actions/upload-artifact@v1
@@ -83,8 +83,8 @@ jobs:
       - name: Cache node modules
         uses: actions/cache@v1
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          path: ~/.yarn
+          key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-node-
 
@@ -95,8 +95,8 @@ jobs:
 
       - name: Electron build
         run: |
-          npm ci
-          npm run electron:build
+          yarn ci
+          yarn run electron:build
 
       - name: Artifact creation
         uses: actions/upload-artifact@v1
