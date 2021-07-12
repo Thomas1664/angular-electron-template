@@ -29,7 +29,7 @@ jobs:
 
       - name: Electron build
         run: |
-          yarn ci
+          yarn install --frozen-lockfile
           yarn run electron:build
 
       - name: Artifact creation
@@ -62,7 +62,7 @@ jobs:
 
       - name: Electron build
         run: |
-          yarn ci
+          yarn install --frozen-lockfile
           yarn run electron:build
 
       - name: Artifact creation
@@ -95,7 +95,7 @@ jobs:
 
       - name: Electron build
         run: |
-          yarn ci
+          yarn install --frozen-lockfile
           yarn run electron:build
 
       - name: Artifact creation
