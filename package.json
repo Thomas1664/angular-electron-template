@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "postinstall": "node postinstall.js",
     "electron": "ng build --base-href ./ && tsc --p electron && electron .",
     "electron:build": "ng build --base-href ./ && tsc --p electron && electron-builder --publish never",
     "electron:build:all": "ng build --base-href ./ && tsc --p electron && electron-builder -mwl --publish never"
@@ -49,6 +50,7 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
+    "replace-in-file": "^6.2.0",
     "typescript": "~4.3.2"
   }
 }

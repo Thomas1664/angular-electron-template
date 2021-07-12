@@ -12,16 +12,10 @@ This template uses the following setup:
 
 # Installation
 
-## Use npm as package manager
-To use npm instead of yarn change the following lines:
+## Choose package manager
+After installation you are asked to choose a package manager. The default package manager is yarn. You can type either `npm` or `yarn`. Any wrong input will default to yarn. The workflow files are adjusted based on this setting to use either npm or yarn.
 
-- In `angular.json` change `packageManager` to `npm`
-- In `.github/workflows/app.yml` change lines 
-
-## Change Angular Project Name
+## Angular Project Name
 Replace `angular-electron-template` with your desired project name (a simple find-and-replace will do the job):
 
-- `package.json` line 2
-- `angular.json` lines 9, 26, 78, 81, 89, 113
 - `electron/main.ts` line 15
-- `karma.conf.js` line 28
