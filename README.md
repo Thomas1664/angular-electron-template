@@ -35,3 +35,6 @@ Replace `angular-electron-template` (`electron/main.ts`, line 15) with the name 
 # After Installation
 - You may delete `postinstall.js` as well as the `postinstall` script in `package.json`
 - If you selected `npm` as your package manager you may delete `yarn.lock` as well
+
+# Contribute
+Contributions - espechially regarding the postinstall-process - are welcome!
