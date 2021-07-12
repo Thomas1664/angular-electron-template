@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
-  - package_manager: "javascript:yarn"
+  - package_manager: "javascript"
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
