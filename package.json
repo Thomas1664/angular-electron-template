@@ -44,7 +44,7 @@
     "@types/node": "^16.3.3",
     "electron": "^13.3.0",
     "electron-builder": "^22.14.13",
-    "jasmine-core": "~4.0.0",
+    "jasmine-core": "~4.0.1",
     "karma": "~6.3.15",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage": "~2.1.1",
