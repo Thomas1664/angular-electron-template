@@ -23,12 +23,12 @@
     "@angular-devkit/core" "12.2.6"
     rxjs "6.6.7"
 
-"@angular-devkit/architect@0.1302.2":
-  version "0.1302.2"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.1302.2.tgz#82d059bca1a95d90b35bca375caf5cb8e941da9f"
-  integrity sha512-kkydqB0PA6ZvaUgHCePoqUAzLzx+x62xOGx5z4FtIlYO9zCYHbv9q4V1jtM0ufj9PZmHCM9HNafp68hx2dcCpg==
+"@angular-devkit/architect@0.1302.6":
+  version "0.1302.6"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.1302.6.tgz#76c5c18580c1c387be01dd7bcbcb34a8b5ac62bd"
+  integrity sha512-NztzorUMfwJeRaT7SY00Y8WSqc2lQYuF11yNoyEm7Dae3V7VZ28rW2Z9RwibP27rYQL0RjSMaz2wKITHX2vOAw==
   dependencies:
-    "@angular-devkit/core" "13.2.2"
+    "@angular-devkit/core" "13.2.6"
     rxjs "6.6.7"
 
 "@angular-devkit/build-angular@~12.2.6":
@@ -135,10 +135,10 @@
     rxjs "6.6.7"
     source-map "0.7.3"
 
-"@angular-devkit/core@13.2.2":
-  version "13.2.2"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-13.2.2.tgz#643a97991e25584cc7c54574c2aa4eee45cf40a0"
-  integrity sha512-qH0Vu8qwGD5uhmE8PtePA1lm7xL3JtbBCcrQICmLqD6njLDVb2N5pbdDXeiXDlWGUoIRHUhu6Uw4AsY8zXP/FA==
+"@angular-devkit/core@13.2.6":
+  version "13.2.6"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-13.2.6.tgz#7032a7c474efacc564511cff0c21d1636404e437"
+  integrity sha512-8h2mWdBTN/dYwZuzKMg2IODlOWMdbJcpQG4XVrkk9ejCPP+3aX5Aa3glCe/voN6eBNiRfs8YDM0jxmpN2aWVtg==
   dependencies:
     ajv "8.9.0"
     ajv-formats "2.1.1"
@@ -147,12 +147,12 @@
     rxjs "6.6.7"
     source-map "0.7.3"
 
-"@angular-devkit/schematics@13.2.2":
-  version "13.2.2"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-13.2.2.tgz#034aa816a16cc372586c0c153c24dc4569b90f1e"
-  integrity sha512-kXPLTkSzRCeBX+SYUkC6MIrWCkH90Y8hVegR9R5n2YqhCJyE+dZlcx4d/8d3VHtZlzAs0LL8BU+liC3wMIagjA==
+"@angular-devkit/schematics@13.2.6":
+  version "13.2.6"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-13.2.6.tgz#c85778b73ede1fbcb6c3af7dde740cd0dc8bfb29"
+  integrity sha512-mPgSqdnZRuPSMeUA+T+mwVCrq2yhXpcYm1/Rjbhy09CyHs4wSrFv21WHCrE6shlvXpcmwr0n+I0DIeagAPmjUA==
   dependencies:
-    "@angular-devkit/core" "13.2.2"
+    "@angular-devkit/core" "13.2.6"
     jsonc-parser "3.0.0"
     magic-string "0.25.7"
     ora "5.4.1"
@@ -165,15 +165,15 @@
   dependencies:
     tslib "^2.2.0"
 
-"@angular/cli@~13.2.2":
-  version "13.2.2"
-  resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-13.2.2.tgz#ecb2f22dc34028224cf9de57c84d239903a348ff"
-  integrity sha512-i9pBm5bVWnabwrsw1Ut84BqGu75+Nol6sReh8NTs7zUdCKNC00kqFBZg/1nGGw0IwL3Q+W7rJMgZ9q0qAtFTXg==
+"@angular/cli@~13.2.6":
+  version "13.2.6"
+  resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-13.2.6.tgz#d532375ac65b7e6204f979756bf12dda8392cd74"
+  integrity sha512-xIjEaQI5sWemXXc7GXLm4u9UL5sjtrQL/y1PJvvk/Jsa8+kIT+MutOfZfC7zcdAh9fqHd8mokH3guFV8BJdFxA==
   dependencies:
-    "@angular-devkit/architect" "0.1302.2"
-    "@angular-devkit/core" "13.2.2"
-    "@angular-devkit/schematics" "13.2.2"
-    "@schematics/angular" "13.2.2"
+    "@angular-devkit/architect" "0.1302.6"
+    "@angular-devkit/core" "13.2.6"
+    "@angular-devkit/schematics" "13.2.6"
+    "@schematics/angular" "13.2.6"
     "@yarnpkg/lockfile" "1.1.0"
     ansi-colors "4.1.1"
     debug "4.3.3"
@@ -1383,13 +1383,13 @@
     node-gyp "^8.2.0"
     read-package-json-fast "^2.0.1"
 
-"@schematics/angular@13.2.2":
-  version "13.2.2"
-  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-13.2.2.tgz#3fbf00059ffe54828c22733223641d1dde6cdf0e"
-  integrity sha512-LfTtu82I7K+BoSzSXV8gA5+ARhtOtOi/qY0uj2782/xzpe+zCbbftgc6MHiSx/a3KO7IStDwf7G6mjqas0v+4g==
+"@schematics/angular@13.2.6":
+  version "13.2.6"
+  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-13.2.6.tgz#48f5b6c58d2f26de913873549180122283b22f20"
+  integrity sha512-8NzHMX9+FSgaB0lJYxlTJv9OcBuolwZJqo9M/yX3RPSqSHghA33jWwgVbV551hBJOpbVEePerG1DQkIC99DXKA==
   dependencies:
-    "@angular-devkit/core" "13.2.2"
-    "@angular-devkit/schematics" "13.2.2"
+    "@angular-devkit/core" "13.2.6"
+    "@angular-devkit/schematics" "13.2.6"
     jsonc-parser "3.0.0"
 
 "@sindresorhus/is@^0.14.0":
